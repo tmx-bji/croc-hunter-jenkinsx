@@ -35,7 +35,7 @@ var enemies2 = [];//第二种敌人
 var enemies3 = [];//第三种敌人
 
 var imgSprite = new Image;
-imgSprite.src = "sprite2.png";
+imgSprite.src = "/static/sprite2.png";
 imgSprite.addEventListener("load", init, false);
 var bgDrawX1 = 0;
 var bgDrawX2 = 1600;
