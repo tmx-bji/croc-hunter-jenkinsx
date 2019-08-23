@@ -99,31 +99,31 @@ const (
 	html = `
 		<html>
 		    <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <title>Croc Hunter</title>
-                <link rel='stylesheet' href='game.css'/>
-                <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-                <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+                　　　　　<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                　　　　　<title>Croc Hunter</title>
+                　　　　　<link rel='stylesheet' href='game.css'/>
+                　　　　　<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+                　　　　　<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
         
-            </head>
-            <body>
-                <canvas id="canvasBg" width="800" height="490" ></canvas>
-                <canvas id="canvasEnemy" width="800" height="500" ></canvas>
+            　　　　</head>
+            　　　　<body>
+                　　　　　<canvas id="canvasBg" width="800" height="490" ></canvas>
+                　　　　　<canvas id="canvasEnemy" width="800" height="500" ></canvas>
      
-                <canvas id="canvasHp" width="800" height="500" ></canvas>
-                <canvas id="canvasHud" width="800" height="500" ></canvas>
-                <canvas id="canvasEnemy2" width="800" height="500" ></canvas> 
-                <canvas id="canvasJet" width="800" height="500" ></canvas>
+                　　　　　<canvas id="canvasHp" width="800" height="500" ></canvas>
+                　　　　　<canvas id="canvasHud" width="800" height="500" ></canvas>
+                　　　　　<canvas id="canvasEnemy2" width="800" height="500" ></canvas> 
+                　　　　　<canvas id="canvasJet" width="800" height="500" ></canvas>
 
-                <script src="game2.js"></script>
-                <div class="details">
-                <strong>Hostname: </strong><span id="hostname">%s</span><br>
-                <strong>Region: </strong><span id="region">%s</span><br>
-                <strong>Release: </strong><span id="release">%s</span><br>
-                <strong>Commit: </strong><span id="commit">%s</span><br>
-                <strong>Powered By: </strong>%s<br>
-                </div>
-            </body>
+                　　　　　<script src="game2.js"></script>
+                　　　　　<div class="details">
+                　　　　　<strong>Hostname: </strong><span id="hostname">%s</span><br>
+                　　　　　<strong>Region: </strong><span id="region">%s</span><br>
+                　　　　　<strong>Release: </strong><span id="release">%s</span><br>
+                　　　　　<strong>Commit: </strong><span id="commit">%s</span><br>
+                　　　　　<strong>Powered By: </strong>%s<br>
+                　　　　　</div>
+            　　　　</body>
 		</html>
 		`
 )
